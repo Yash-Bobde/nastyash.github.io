@@ -10,18 +10,18 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "HEAD AND HEART", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "BE MY QUEEN", filePath: "songs/1.mp3", coverPath: "covers/11.jpeg"},
     {songName: "TALKING TO THE MOON", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "LET ME TAKE YOU DANCING", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "LOVE YOUR VOICE", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "ATTENTION", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "CASTLE IN THE SKY", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "BEGGING", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "LEVITATING", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "GOOSEBUMPS", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "MAMACITA", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
-    {songName: "BE MY QUEEN", filePath: "songs/11.mp3", coverPath: "covers/11.jpg"},
-
+    {songName: "CASTLE IN THE SKY", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
+    {songName: "BEGGING", filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
+    {songName: "LEVITATING", filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "GOOSEBUMPS", filePath: "songs/9.mp3", coverPath: "covers/9.jpg"},
+    {songName: "MAMACITA", filePath: "songs/10.mp3", coverPath: "covers/10.jpg"},
+    {songName: "HEAD AND HEART", filePath: "songs/11.mp3", coverPath: "covers/1.jpg"},
+    
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -80,7 +80,7 @@ Array.from(document.getElementsByClassName('songItemPlay')).forEach((element)=>{
 })
 
 document.getElementById('next').addEventListener('click', ()=>{
-    if(songIndex>=9){
+    if(songIndex>=10){
         songIndex = 0
     }
     else{
