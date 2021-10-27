@@ -12,7 +12,7 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 let songs = [
     {songName: "BE MY QUEEN", filePath: "songs/1.mp3", coverPath: "covers/11.jpeg"},
     {songName: "TALKING TO THE MOON", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "LET ME TAKE YOU DANCING", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "ILY NASTYA", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "LOVE YOUR VOICE", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
     {songName: "ATTENTION", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
     {songName: "CASTLE IN THE SKY", filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
